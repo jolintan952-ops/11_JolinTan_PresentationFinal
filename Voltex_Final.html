@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Voltex — Premium Electronics & Repair</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+
+<!-- ══ NAV ══ -->
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="logo">
+      <div class="logo-mark"><i class="ti ti-bolt"></i></div>
+      <span class="logo-text">Volt<span>ex</span></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#" class="active">Shop</a></li>
+      <li><a href="#">Repair Services</a></li>
+      <li><a href="#">Deals</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#contact-us">Contact Us</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="btn-ghost" aria-label="Search"><i class="ti ti-search"></i></button>
+      <button class="btn-ghost cart-badge" aria-label="Cart"><i class="ti ti-shopping-bag"></i></button>
+      <button class="btn-ghost" aria-label="Account"><i class="ti ti-user-circle"></i></button>
+      <a href="#" class="btn-primary"><i class="ti ti-tools" aria-hidden="true"></i> Book Repair</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ══ PAGE BODY ══ -->
+<div class="page-wrapper">
+
+  <!-- ROW 1: Sidebar + Hero + Aside -->
+  <div class="row-main">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <p class="sidebar-label">Categories</p>
+      <ul class="sidebar-nav">
+        <li><a href="#" class="active"><i class="ti ti-device-laptop"></i>Laptops</a></li>
+        <li><a href="#"><i class="ti ti-device-mobile"></i>Smartphones</a></li>
+        <li><a href="#"><i class="ti ti-headphones"></i>Audio</a></li>
+        <li><a href="#"><i class="ti ti-device-tv"></i>TVs & Displays</a></li>
+        <li><a href="#"><i class="ti ti-device-gamepad-2"></i>Gaming</a></li>
+        <li><a href="#"><i class="ti ti-camera"></i>Cameras</a></li>
+        <li><a href="#"><i class="ti ti-smart-home"></i>Smart Home</a></li>
+      </ul>
+      <div class="sidebar-divider"></div>
+      <p class="sidebar-label">Services</p>
+      <ul class="sidebar-nav">
+        <li><a href="#"><i class="ti ti-tools"></i>Device Repair</a></li>
+        <li><a href="#"><i class="ti ti-file-check"></i>Warranty Claims</a></li>
+        <li><a href="#"><i class="ti ti-recycle"></i>Trade-In</a></li>
+      </ul>
+    </aside>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div>
+        <div class="hero-tag"><i class="ti ti-sparkles"></i> New Arrivals · 2025 Collection</div>
+        <h1 class="hero-title">Premium Tech,<br>Honest Prices.</h1>
+        <p class="hero-sub">Top-tier electronics curated for performance and value — plus expert repair services to keep your devices running longer.</p>
+        <div class="hero-actions">
+          <a href="#" class="btn-white"><i class="ti ti-arrow-right" aria-hidden="true"></i> Browse Products</a>
+          <a href="#" class="btn-outline-white"><i class="ti ti-tools" aria-hidden="true"></i> Book a Repair</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Aside -->
+    <div class="aside">
+      <div class="aside-card">
+        <div class="aside-card-title"><i class="ti ti-shield-check"></i> Repair Status</div>
+        <div class="aside-stat">
+          <span class="aside-stat-label">Screen Replace</span>
+          <span class="badge badge-green">Ready</span>
+        </div>
+        <div class="aside-stat">
+          <span class="aside-stat-label">Battery Swap</span>
+          <span class="badge badge-amber">In Progress</span>
+        </div>
+        <div class="aside-stat">
+          <span class="aside-stat-label">Motherboard Fix</span>
+          <span class="badge badge-blue">Quoted</span>
+        </div>
+      </div>
+      <div class="promo-bar">
+        <i class="ti ti-tag promo-icon"></i>
+        <p class="promo-text">
+          <strong>Summer Sale — Up to 30% Off</strong>
+          Selected laptops & smartphones this weekend only.
+        </p>
+      </div>
+      <div class="aside-card">
+        <div class="aside-card-title"><i class="ti ti-star"></i> Top Rated</div>
+        <div class="aside-stat">
+          <span class="aside-stat-label">Sony WH-1000XM6</span>
+          <span class="aside-stat-val">★ 4.9</span>
+        </div>
+        <div class="aside-stat">
+          <span class="aside-stat-label">MacBook Air M4</span>
+          <span class="aside-stat-val">★ 4.8</span>
+        </div>
+        <div class="aside-stat">
+          <span class="aside-stat-label">Samsung S25 Ultra</span>
+          <span class="aside-stat-val">★ 4.7</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROW 2: Featured Products -->
+  <div class="section-header">
+    <h2 class="section-title">Featured Products</h2>
+    <a href="#" class="section-link">View all <i class="ti ti-arrow-right" style="font-size:13px"></i></a>
+  </div>
+  <div class="products-grid">
+
+    <!-- Card 1 -->
+    <div class="product-card">
+      <div class="product-img">
+        <i class="ti ti-device-laptop"></i>
+        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="ti ti-heart"></i></button>
+      </div>
+      <div class="product-body">
+        <p class="product-brand">Apple</p>
+        <p class="product-name">MacBook Air 15" M4 Chip, 16GB RAM</p>
+        <div class="stars">
+          <i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i>
+          <span>(214)</span>
+        </div>
+      </div>
+      <div class="product-footer">
+        <div class="product-price">$1,099 <span class="old">$1,299</span></div>
+        <button class="add-btn" aria-label="Add to cart"><i class="ti ti-plus"></i></button>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="product-card">
+      <div class="product-img" style="background: #EEF3FA;">
+        <i class="ti ti-device-mobile"></i>
+        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="ti ti-heart"></i></button>
+      </div>
+      <div class="product-body">
+        <p class="product-brand">Samsung</p>
+        <p class="product-name">Galaxy S25 Ultra 512GB, Titanium</p>
+        <div class="stars">
+          <i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-half-filled"></i>
+          <span>(318)</span>
+        </div>
+      </div>
+      <div class="product-footer">
+        <div class="product-price">$979 <span class="old">$1,199</span></div>
+        <button class="add-btn" aria-label="Add to cart"><i class="ti ti-plus"></i></button>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="product-card">
+      <div class="product-img" style="background: #F5F0FA;">
+        <i class="ti ti-headphones"></i>
+        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="ti ti-heart"></i></button>
+      </div>
+      <div class="product-body">
+        <p class="product-brand">Sony</p>
+        <p class="product-name">WH-1000XM6 Noise-Cancelling Headphones</p>
+        <div class="stars">
+          <i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i>
+          <span>(502)</span>
+        </div>
+      </div>
+      <div class="product-footer">
+        <div class="product-price">$279 <span class="old">$349</span></div>
+        <button class="add-btn" aria-label="Add to cart"><i class="ti ti-plus"></i></button>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="product-card">
+      <div class="product-img" style="background: #F0F8F3;">
+        <i class="ti ti-device-tablet"></i>
+        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="ti ti-heart"></i></button>
+      </div>
+      <div class="product-body">
+        <p class="product-brand">Lenovo</p>
+        <p class="product-name">ThinkPad X1 Carbon Gen 13, 32GB</p>
+        <div class="stars">
+          <i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-half-filled"></i>
+          <span>(189)</span>
+        </div>
+      </div>
+      <div class="product-footer">
+        <div class="product-price">$1,349 <span class="old">$1,599</span></div>
+        <button class="add-btn" aria-label="Add to cart"><i class="ti ti-plus"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROW 3: Two-column content -->
+  <div class="row-split">
+
+    <!-- Repair services card -->
+    <div class="content-card">
+      <div class="content-card-icon icon-green">
+        <i class="ti ti-tool"></i>
+      </div>
+      <h3>Expert Repair Services</h3>
+      <p>Our certified technicians fix all major brands with genuine parts and a 90-day workmanship warranty. Drop off in-store or ship your device to us.</p>
+      <ul class="repair-services">
+        <li><i class="ti ti-check"></i>Screen & display replacement (same-day)</li>
+        <li><i class="ti ti-check"></i>Battery & charging port repair</li>
+        <li><i class="ti ti-check"></i>Motherboard & logic board diagnostics</li>
+        <li><i class="ti ti-check"></i>Water damage treatment & recovery</li>
+        <li><i class="ti ti-check"></i>Software issues & data recovery</li>
+        <li><i class="ti ti-check"></i>Gaming console & peripheral repair</li>
+      </ul>
+      <br>
+      <a href="#" class="btn-accent-outline"><i class="ti ti-calendar" aria-hidden="true"></i> Schedule a Repair</a>
+    </div>
+
+    <!-- Why Voltex card -->
+    <div class="content-card">
+      <div class="content-card-icon icon-accent">
+        <i class="ti ti-award"></i>
+      </div>
+      <h3>Why Choose Voltex?</h3>
+      <p>We combine curated product selection with unmatched after-sales support — so your devices work for years, not just months.</p>
+      <ul class="why-list">
+        <li>
+          <div class="why-num">1</div>
+          <div><strong>Price-Match Guarantee</strong>Find it cheaper elsewhere? We'll match it, no questions asked.</div>
+        </li>
+        <li>
+          <div class="why-num">2</div>
+          <div><strong>2-Year Extended Warranty</strong>Every product comes with a complimentary 2-year extended warranty.</div>
+        </li>
+        <li>
+          <div class="why-num">3</div>
+          <div><strong>Certified Technicians</strong>All repairs done by manufacturer-certified engineers on-site.</div>
+        </li>
+        <li>
+          <div class="why-num">4</div>
+          <div><strong>30-Day Returns</strong>Not happy? Return any product within 30 days, hassle-free.</div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Our Vision & Mission -->
+  <div class="about-section">
+
+    <!-- Our Vision: text left, image right -->
+    <div class="about-block">
+      <div class="about-text">
+        <p class="about-label"><i class="ti ti-eye" style="font-size:12px;margin-right:4px;"></i>Our Vision</p>
+        <h2>A World Where Technology Works for Everyone</h2>
+        <p>We envision a future where premium technology is accessible, durable, and sustainable. Voltex exists to bridge the gap between cutting-edge innovation and everyday reliability — so that every person can experience technology that truly enhances their life, not complicates it.</p>
+      </div>
+      <div class="about-img-wrap">
+        <div class="about-img-inner vision-bg">
+          <i class="ti ti-telescope" style="position:relative;z-index:1;"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Our Mission: image left, text right -->
+    <div class="about-block reverse">
+      <div class="about-text">
+        <p class="about-label"><i class="ti ti-rocket" style="font-size:12px;margin-right:4px;"></i>Our Mission</p>
+        <h2>Curate, Repair & Empower with Integrity</h2>
+        <p>Our mission is to provide customers with the highest quality electronics backed by transparent pricing and expert after-sales care. We don't just sell devices — we build lasting relationships by making sure your technology keeps performing, repaired by certified technicians and supported by a team that genuinely cares.</p>
+      </div>
+      <div class="about-img-wrap">
+        <div class="about-img-inner mission-bg">
+          <i class="ti ti-target" style="position:relative;z-index:1;"></i>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Company History -->
+  <div class="history-section">
+    <div class="history-slider-wrap">
+      <div class="section-header">
+        <h2 class="section-title">Company History</h2>
+        <span style="font-size:13px;color:var(--ink-3);">Slide to explore our journey</span>
+      </div>
+
+      <div class="history-track-outer">
+        <div class="history-track" id="historyTrack">
+
+          <!-- Slide 1 -->
+          <div class="history-slide">
+            <div class="history-year-block">
+              <div class="history-year">2010</div>
+              <div class="history-year-label">Founded</div>
+            </div>
+            <div class="history-content">
+              <div class="history-icon"><i class="ti ti-building-store"></i></div>
+              <h3>Humble Beginnings in a Small Shop</h3>
+              <p>Voltex was founded in a 400 sq ft shopfront in Singapore by two engineers who believed quality electronics shouldn't come at the cost of honest service. Within the first year, we served over 1,200 customers.</p>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="history-slide">
+            <div class="history-year-block">
+              <div class="history-year">2014</div>
+              <div class="history-year-label">Expansion</div>
+            </div>
+            <div class="history-content">
+              <div class="history-icon"><i class="ti ti-tools"></i></div>
+              <h3>Launching Our Certified Repair Centre</h3>
+              <p>We opened a dedicated repair facility, staffing manufacturer-certified technicians. The repair division quickly grew to handle over 3,000 devices annually, establishing Voltex as the go-to repair partner for major brands.</p>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="history-slide">
+            <div class="history-year-block">
+              <div class="history-year">2018</div>
+              <div class="history-year-label">Milestone</div>
+            </div>
+            <div class="history-content">
+              <div class="history-icon"><i class="ti ti-award"></i></div>
+              <h3>Awarded Best Electronics Retailer</h3>
+              <p>Voltex received the Consumer Trust Award for Best Electronics Retailer in Southeast Asia, recognising our commitment to product authenticity, fair pricing, and industry-leading customer satisfaction scores.</p>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="history-slide">
+            <div class="history-year-block">
+              <div class="history-year">2021</div>
+              <div class="history-year-label">Digital</div>
+            </div>
+            <div class="history-content">
+              <div class="history-icon"><i class="ti ti-world"></i></div>
+              <h3>Going Online — A New Digital Storefront</h3>
+              <p>We launched our e-commerce platform, allowing customers across Singapore to shop, book repairs, and track their devices online. The digital store saw 50,000 orders in its first year and introduced same-day delivery in the city.</p>
+            </div>
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="history-slide">
+            <div class="history-year-block">
+              <div class="history-year">2025</div>
+              <div class="history-year-label">Today</div>
+            </div>
+            <div class="history-content">
+              <div class="history-icon"><i class="ti ti-sparkles"></i></div>
+              <h3>A Premium Brand Built on Trust</h3>
+              <p>Today, Voltex operates multiple locations and serves over 100,000 customers. We continue to expand our product range and repair capabilities, staying true to our founding belief: technology should be honest, reliable, and accessible to all.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="history-controls">
+        <button class="history-btn" id="historyPrev" aria-label="Previous"><i class="ti ti-chevron-left"></i></button>
+        <div class="history-dots" id="historyDots"></div>
+        <button class="history-btn" id="historyNext" aria-label="Next"><i class="ti ti-chevron-right"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Trust Strip -->
+  <div class="trust-strip">
+    <div class="trust-item">
+      <i class="ti ti-truck trust-icon" aria-hidden="true"></i>
+      <div>
+        <p class="trust-label">Free Delivery</p>
+        <p class="trust-sub">On orders above $50</p>
+      </div>
+    </div>
+    <div class="trust-item">
+      <i class="ti ti-shield-check trust-icon" aria-hidden="true"></i>
+      <div>
+        <p class="trust-label">2-Year Warranty</p>
+        <p class="trust-sub">On all products</p>
+      </div>
+    </div>
+    <div class="trust-item">
+      <i class="ti ti-refresh trust-icon" aria-hidden="true"></i>
+      <div>
+        <p class="trust-label">30-Day Returns</p>
+        <p class="trust-sub">No questions asked</p>
+      </div>
+    </div>
+    <div class="trust-item">
+      <i class="ti ti-headset trust-icon" aria-hidden="true"></i>
+      <div>
+        <p class="trust-label">24/7 Support</p>
+        <p class="trust-sub">Chat, email & phone</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ══ CONTACT US ══ -->
+<div class="page-wrapper" id="contact-us">
+
+  <!-- Page Header -->
+  <div class="contact-page-header">
+    <div class="contact-page-header-text">
+      <div class="contact-page-tag"><i class="ti ti-headset"></i> Contact Us</div>
+      <h1 class="contact-page-title">We're Here to Help</h1>
+      <p class="contact-page-sub">Whether you have questions about a product, need repair support, or want to track your order — our team responds within one business day.</p>
+    </div>
+    <div class="contact-page-header-visual">
+      <div class="contact-stat-pill">
+        <span class="contact-stat-val">&lt;4h</span>
+        <span class="contact-stat-label">Avg. Response</span>
+      </div>
+      <div class="contact-stat-pill">
+        <span class="contact-stat-val">24/7</span>
+        <span class="contact-stat-label">Live Chat</span>
+      </div>
+      <div class="contact-stat-pill">
+        <span class="contact-stat-val">98%</span>
+        <span class="contact-stat-label">Satisfaction</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Contact Grid -->
+  <div class="contact-grid">
+
+    <!-- Left: Contact Form -->
+    <div class="contact-form-card">
+      <div id="contactFormWrap">
+        <h2 class="contact-form-title"><i class="ti ti-message-2"></i> Send Us a Message</h2>
+        <p class="contact-form-subtitle">Fill in the form and our team will get back to you promptly.</p>
+
+        <div class="form-row">
+          <div class="form-group" style="margin-bottom:0">
+            <label class="form-label" for="cf-first">First Name <span class="required">*</span></label>
+            <input class="form-input" id="cf-first" type="text" placeholder="e.g. Alex">
+          </div>
+          <div class="form-group" style="margin-bottom:0">
+            <label class="form-label" for="cf-last">Last Name <span class="required">*</span></label>
+            <input class="form-input" id="cf-last" type="text" placeholder="e.g. Tan">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group" style="margin-bottom:0">
+            <label class="form-label" for="cf-email">Email Address <span class="required">*</span></label>
+            <input class="form-input" id="cf-email" type="email" placeholder="you@example.com">
+          </div>
+          <div class="form-group" style="margin-bottom:0">
+            <label class="form-label" for="cf-phone">Phone Number</label>
+            <input class="form-input" id="cf-phone" type="tel" placeholder="+65 9XXX XXXX">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cf-subject">Enquiry Type <span class="required">*</span></label>
+          <select class="form-select" id="cf-subject">
+            <option value="" disabled selected>Select the nature of your enquiry</option>
+            <option value="product">Product Inquiry — Features, availability, pricing</option>
+            <option value="repair">Repair Services — Booking, status, quotes</option>
+            <option value="order">Order &amp; Delivery — Tracking, returns, refunds</option>
+            <option value="warranty">Warranty &amp; Claims</option>
+            <option value="other">General Feedback / Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cf-orderref">Order / Repair Reference <span style="color:var(--ink-3);font-weight:400;">(if applicable)</span></label>
+          <input class="form-input" id="cf-orderref" type="text" placeholder="e.g. VTX-20250123">
+          <span class="form-hint">You can find this in your confirmation email.</span>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cf-message">Your Message <span class="required">*</span></label>
+          <textarea class="form-textarea" id="cf-message" placeholder="Describe your question or issue in detail…"></textarea>
+        </div>
+
+        <div class="form-submit-row">
+          <span class="form-submit-note"><i class="ti ti-lock"></i> Your info is kept private and secure</span>
+          <button class="btn-send" onclick="handleContactSubmit()">
+            <i class="ti ti-send"></i> Send Message
+          </button>
+        </div>
+      </div>
+
+      <!-- Success State -->
+      <div class="form-success" id="contactSuccess">
+        <div class="success-icon"><i class="ti ti-check"></i></div>
+        <h3>Message Sent!</h3>
+        <p>Thanks for reaching out. Our team will review your enquiry and respond to your email within one business day.</p>
+        <button class="btn-accent-outline" onclick="resetContactForm()" style="margin-top:6px;">
+          <i class="ti ti-arrow-left"></i> Send Another
+        </button>
+      </div>
+    </div>
+
+    <!-- Right: Sidebar -->
+    <div class="contact-side">
+
+      <!-- Contact Info -->
+      <div class="contact-info-card">
+        <div class="contact-info-card-title"><i class="ti ti-map-pin"></i> Contact Information</div>
+
+        <div class="contact-info-item">
+          <div class="contact-info-icon ci-blue"><i class="ti ti-phone"></i></div>
+          <div class="contact-info-text">
+            <div class="contact-info-label">Phone</div>
+            <div class="contact-info-value">+65 6123 4567</div>
+            <div class="contact-info-sub">Mon–Fri, 9am – 6pm SGT</div>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-info-icon ci-green"><i class="ti ti-mail"></i></div>
+          <div class="contact-info-text">
+            <div class="contact-info-label">Email</div>
+            <div class="contact-info-value">support@voltex.sg</div>
+            <div class="contact-info-sub">Response within 1 business day</div>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-info-icon ci-amber"><i class="ti ti-message-circle"></i></div>
+          <div class="contact-info-text">
+            <div class="contact-info-label">Live Chat</div>
+            <div class="contact-info-value">Available 24/7</div>
+            <div class="contact-info-sub">Click the chat icon on any page</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Store Hours -->
+      <div class="contact-info-card">
+        <div class="contact-info-card-title"><i class="ti ti-clock"></i> Store Hours</div>
+        <div class="hours-row">
+          <span class="hours-day hours-today">Monday – Friday <span class="badge badge-green" style="font-size:10px;padding:2px 7px;">Today</span></span>
+          <span class="hours-time hours-today">9:00 – 21:00</span>
+        </div>
+        <div class="hours-row">
+          <span class="hours-day">Saturday</span>
+          <span class="hours-time">10:00 – 22:00</span>
+        </div>
+        <div class="hours-row">
+          <span class="hours-day">Sunday</span>
+          <span class="hours-time">11:00 – 20:00</span>
+        </div>
+        <div class="hours-row">
+          <span class="hours-day">Public Holidays</span>
+          <span class="hours-closed">Closed</span>
+        </div>
+      </div>
+
+      <!-- Order Now CTA -->
+      <div class="contact-cta-card">
+        <div class="contact-cta-label">Ready to shop?</div>
+        <div class="contact-cta-title">Browse Our Latest Products</div>
+        <p class="contact-cta-body">Explore our full range of premium electronics — laptops, smartphones, audio and more — with fast delivery across Singapore.</p>
+        <a href="https://voltex.sg/shop" class="btn-order-now" target="_blank" rel="noopener">
+          <i class="ti ti-arrow-right"></i> Order Now
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- General Enquiry FAQs -->
+  <div class="contact-faq">
+    <div class="contact-faq-header">
+      <h2 class="section-title">General Questions</h2>
+      <a href="#" class="section-link">All FAQs <i class="ti ti-arrow-right" style="font-size:12px;"></i></a>
+    </div>
+
+    <!-- FAQ 1 -->
+    <div class="faq-item open" id="faq1">
+      <button class="faq-question" onclick="toggleFaq('faq1')" aria-expanded="true">
+        <div class="faq-question-inner">
+          <span class="faq-num">1</span>
+          <span class="faq-q-text">How do I book a repair for my device?
+            <span class="faq-tag faq-tag-repair"><i class="ti ti-tools" style="font-size:9px;"></i> Repair</span>
+          </span>
+        </div>
+        <i class="ti ti-chevron-down faq-chevron"></i>
+      </button>
+      <div class="faq-answer" id="faq1-answer">
+        <div class="faq-answer-inner">
+          You can book a repair in three ways: online via our <a href="#">Book Repair</a> page, by calling us at +65 6123 4567 during business hours, or by walking into any Voltex outlet. Once booked, you'll receive a confirmation with a repair reference number. Our certified technicians aim to provide a quote within 24 hours and complete most repairs within 2–5 business days depending on parts availability.
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ 2 -->
+    <div class="faq-item" id="faq2">
+      <button class="faq-question" onclick="toggleFaq('faq2')" aria-expanded="false">
+        <div class="faq-question-inner">
+          <span class="faq-num">2</span>
+          <span class="faq-q-text">What is your return and refund policy?
+            <span class="faq-tag faq-tag-orders"><i class="ti ti-package" style="font-size:9px;"></i> Orders</span>
+          </span>
+        </div>
+        <i class="ti ti-chevron-down faq-chevron"></i>
+      </button>
+      <div class="faq-answer" id="faq2-answer">
+        <div class="faq-answer-inner">
+          We offer a <strong>30-day no-questions-asked return policy</strong> on all products purchased directly from Voltex (in-store or online). Items must be in original packaging and unused condition. To start a return, use your order reference number on our <a href="#">Returns Portal</a> or contact us directly. Refunds are processed within 5–7 business days back to your original payment method. Please note that opened software and digital downloads are non-refundable.
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ 3 -->
+    <div class="faq-item" id="faq3">
+      <button class="faq-question" onclick="toggleFaq('faq3')" aria-expanded="false">
+        <div class="faq-question-inner">
+          <span class="faq-num">3</span>
+          <span class="faq-q-text">Do your products come with a manufacturer's warranty?
+            <span class="faq-tag faq-tag-general"><i class="ti ti-shield-check" style="font-size:9px;"></i> General</span>
+          </span>
+        </div>
+        <i class="ti ti-chevron-down faq-chevron"></i>
+      </button>
+      <div class="faq-answer" id="faq3-answer">
+        <div class="faq-answer-inner">
+          Yes — all products sold at Voltex include a <strong>minimum 1-year manufacturer warranty</strong>, and many carry our extended <strong>Voltex 2-Year Warranty</strong> at no extra cost. Warranty coverage includes manufacturing defects and hardware failures under normal use. It does not cover accidental damage, water damage, or unauthorised modifications. To file a warranty claim, visit our <a href="#">Warranty Claims</a> page or contact our support team with your proof of purchase.
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Location Map Strip -->
+  <div class="contact-map-strip">
+    <div class="contact-map-placeholder">
+      <div class="map-pin-icon"><i class="ti ti-map-pin"></i></div>
+      <span class="map-label">Voltex Flagship Store — Orchard Road, Singapore</span>
+    </div>
+    <div class="contact-location-panel">
+      <div class="location-panel-title">Visit Our Flagship Store</div>
+      <div class="location-detail">
+        <i class="ti ti-map-pin"></i>
+        <span>391 Orchard Road, #B1-08<br>Ngee Ann City, Singapore 238872</span>
+      </div>
+      <div class="location-detail">
+        <i class="ti ti-train"></i>
+        <span>Nearest MRT: Orchard (NS22)</span>
+      </div>
+      <div class="location-detail">
+        <i class="ti ti-parking"></i>
+        <span>Parking available at Ngee Ann City Carpark</span>
+      </div>
+      <a href="https://maps.google.com/?q=Ngee+Ann+City+Singapore" class="btn-directions" target="_blank" rel="noopener">
+        <i class="ti ti-navigation"></i> Get Directions
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <div class="logo-mark"><i class="ti ti-bolt"></i></div>
+          <span class="logo-text">Volt<span style="color:#7da8d8">ex</span></span>
+        </div>
+        <p>Premium electronics at honest prices, backed by expert repair services and a team that genuinely cares about your tech.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="#">Laptops</a></li>
+          <li><a href="#">Smartphones</a></li>
+          <li><a href="#">Audio</a></li>
+          <li><a href="#">TVs & Displays</a></li>
+          <li><a href="#">Gaming</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#">Device Repair</a></li>
+          <li><a href="#">Warranty Claims</a></li>
+          <li><a href="#">Trade-In Program</a></li>
+          <li><a href="#">Data Recovery</a></li>
+          <li><a href="#">Book Appointment</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Voltex Electronics Pte Ltd. All rights reserved.</span>
+      <div class="footer-socials">
+        <a href="#" aria-label="Twitter"><i class="ti ti-brand-x"></i></a>
+        <a href="#" aria-label="Instagram"><i class="ti ti-brand-instagram"></i></a>
+        <a href="#" aria-label="Facebook"><i class="ti ti-brand-facebook"></i></a>
+        <a href="#" aria-label="YouTube"><i class="ti ti-brand-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    const track = document.getElementById('historyTrack');
+    const prevBtn = document.getElementById('historyPrev');
+    const nextBtn = document.getElementById('historyNext');
+    const dotsContainer = document.getElementById('historyDots');
+    const slides = track.querySelectorAll('.history-slide');
+    const total = slides.length;
+    let current = 0;
+
+    // Build dots
+    slides.forEach((_, i) => {
+      const dot = document.createElement('button');
+      dot.className = 'history-dot' + (i === 0 ? ' active' : '');
+      dot.setAttribute('aria-label', 'Go to slide ' + (i + 1));
+      dot.addEventListener('click', () => goTo(i));
+      dotsContainer.appendChild(dot);
+    });
+
+    function updateDots() {
+      dotsContainer.querySelectorAll('.history-dot').forEach((d, i) => {
+        d.classList.toggle('active', i === current);
+      });
+    }
+
+    function goTo(index) {
+      current = index;
+      track.style.transform = `translateX(-${current * 100}%)`;
+      prevBtn.disabled = current === 0;
+      nextBtn.disabled = current === total - 1;
+      updateDots();
+    }
+
+    prevBtn.addEventListener('click', () => { if (current > 0) goTo(current - 1); });
+    nextBtn.addEventListener('click', () => { if (current < total - 1) goTo(current + 1); });
+
+    // Keyboard support
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowLeft' && current > 0) goTo(current - 1);
+      if (e.key === 'ArrowRight' && current < total - 1) goTo(current + 1);
+    });
+
+    goTo(0);
+  })();
+
+  // ── CONTACT US: FAQ ACCORDION ──
+  function toggleFaq(id) {
+    const item = document.getElementById(id);
+    const isOpen = item.classList.contains('open');
+    // Close all
+    document.querySelectorAll('.faq-item').forEach(el => {
+      el.classList.remove('open');
+      el.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+    });
+    // Open clicked if it was closed
+    if (!isOpen) {
+      item.classList.add('open');
+      item.querySelector('.faq-question').setAttribute('aria-expanded', 'true');
+    }
+  }
+
+  // ── CONTACT US: FORM SUBMIT ──
+  function handleContactSubmit() {
+    const first = document.getElementById('cf-first').value.trim();
+    const email = document.getElementById('cf-email').value.trim();
+    const subject = document.getElementById('cf-subject').value;
+    const message = document.getElementById('cf-message').value.trim();
+
+    if (!first || !email || !subject || !message) {
+      // Highlight empty required fields
+      ['cf-first','cf-email','cf-subject','cf-message'].forEach(id => {
+        const el = document.getElementById(id);
+        if (!el.value.trim()) {
+          el.style.borderColor = '#C0392B';
+          el.style.boxShadow = '0 0 0 3px rgba(192,57,43,0.1)';
+          el.addEventListener('input', function reset() {
+            el.style.borderColor = '';
+            el.style.boxShadow = '';
+            el.removeEventListener('input', reset);
+          }, { once: true });
+        }
+      });
+      return;
+    }
+
+    document.getElementById('contactFormWrap').style.display = 'none';
+    document.getElementById('contactSuccess').classList.add('visible');
+  }
+
+  function resetContactForm() {
+    document.getElementById('contactFormWrap').style.display = 'block';
+    document.getElementById('contactSuccess').classList.remove('visible');
+    ['cf-first','cf-last','cf-email','cf-phone','cf-subject','cf-orderref','cf-message'].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.value = '';
+    });
+  }
+</script>
+</body>
+</html>
